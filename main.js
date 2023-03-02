@@ -20,13 +20,13 @@ recognition.onresult = function(event){
     if(cookie == "circle"|| cookie=="Circle"){
         x=Math.floor(Math.random()*350);
         y=Math.floor(Math.random()*350);
-        document.getElementsById("status").innerHTML="Drawing A Circle Now !!    ";
+        document.getElementById("status").innerHTML="Drawing A Circle Now !!    ";
         dcircle="dessert";
     }
     if(cookie == "rectangle"|| cookie=="Rectangle"){
         x=Math.floor(Math.random()*350);
         y=Math.floor(Math.random()*350);
-        document.getElementsById("status").innerHTML="Drawing A Rectangle Now !!    ";
+        document.getElementById("status").innerHTML="Drawing A Rectangle Now !!    ";
         rectangle="dessert";
     }
 }
