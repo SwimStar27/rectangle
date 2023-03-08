@@ -1,14 +1,30 @@
-body
-{
-	text-align: center;
+body{
+    background-color: rgb(209, 244, 255);
 }
-span
-{
-	font-size: 18px;
-	color: red;
+
+.swim{
+    width: 35%;
+    border: 4px solid rgb(255, 202, 202);
+    font-family: 'Shantell Sans', cursive;
 }
-canvas
-{
-	background: pink;
-	border-radius: 20px;
+
+#orca{
+    border: 4px solid #d7b0ff;
+    width:56%;
+    background-color: #ffffed;
+    font-family: 'Phudu', cursive;
+}
+
+.code{
+    font-weight: 800;
+}
+
+#sloth{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    background-color: #87ffb7;
+    margin-bottom: 0;
 }
